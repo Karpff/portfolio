@@ -1,0 +1,153 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html
+{
+    background: url(bg.jpg);
+}
+
+body
+{
+    background: linear-gradient(175deg, rgba(0,0,0,0.6), rgba(0,0,0,0.7) 20%, rgba(0,0,0,0.7) 80%, rgba(0,0,0,0.8));
+}
+
+a
+{
+    color: lightblue;
+}
+
+.container-md
+{
+    color: white;
+    background: linear-gradient(170deg, rgba(255,255,255,0.2), rgba(255,255,255,0) 20%);
+    border-radius: 10px;
+    overflow-y: auto;
+    height: 100%;
+    position: relative;
+}
+
+.container-md::-webkit-scrollbar
+{
+    display: none;
+}
+
+.shadow-outer
+{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.shadow-inner
+{
+    position: fixed;
+    background: linear-gradient(176deg, rgba(0,0,0,0) 80%,rgba(0,0,0,0.6));
+    pointer-events: none;
+    border-radius: 10px;
+}
+
+article
+{
+    background: rgba(100,100,100,0.3);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.5) inset;
+    margin-bottom: 30px;
+    padding: 30px;
+    font-size: 16px;
+}
+
+#bottom-section article
+{
+    flex: 30% 1 1;
+    margin: 15px;
+    padding: 30px 15px;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#top-section .photo, #bottom-section .photo
+{
+    flex: 0;
+    text-align: center;
+    margin: auto;
+    padding: 0 15px;
+    order: 2;
+}
+
+#middle-section .photo
+{
+    flex: 0;
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    order: 2;
+}
+
+.frame
+{
+    overflow: hidden;
+    border-radius: 10px;
+    width: 250px;
+    height: 170px;
+    margin: auto;
+}
+
+.frame img:hover
+{
+    transform: scale(1.1) rotate(2deg);
+}
+
+#top-section img, #bottom-section img
+{
+    border-radius: 10px;
+    width: 250px;
+    height: 170px;
+    transition: 300ms;
+}
+
+#bottom-section img, #bottom-section .frame
+{
+    width: 220px;
+    height: 160px;
+}
+
+#middle-section img
+{
+    border-radius: 10px;
+}
+
+.description
+{
+    flex: 1 300px;
+    padding: 15px;
+    text-align: center;
+}
+
+#bottom-section .description
+{
+    padding-bottom: 0;
+    height: 60px;
+}
+
+.desc-left
+{
+    order: 1;
+}
+
+.desc-right
+{
+    order: 3;
+}
+
