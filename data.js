@@ -37,6 +37,10 @@ const data =
             description: "Dwuosobowa gra w czołgi stworzona w 0 godzin na <a href='http://0hgame.eu'>[0h GameJam]</a> (w dzień zmiany czasu pomiędzy 2:00 a 2:00). Sterowanie: Gracz 1 - WSAD, J, L, Spacja; Gracz 2 - Strzałki, num1, num3, num0."
         }
     ],
+    middle: {
+        description: "Cząsteczkowa symulacja cieczy utworzona w <i>Processing</i> - środowisku opartym na języku Java. Odwzorowuje zachowanie cieczy symulując działajace na cząsteczki czynniki takie jak grawitacja, ciśnienie i \"lepkość\". Podobnie jak większość moich prac, została ona napisana od zera, bez użycia żadnych silników fizycznych. Na ostatnim załączonym gifie widać wersję, która pozwala na popychanie cząsteczek wody przy użyciu myszki, oraz podświetla cząsteczki w zależności od tego jak szybko się poruszają.",
+        imgs: ["fluid2.gif","fluid3.gif","bloomwaves.gif"]
+    },
     bottom: [
         {
             img: "rectangle-filling.jpg",
