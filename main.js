@@ -1,3 +1,5 @@
+var loaded = false;
+
 window.addEventListener("load",async _=>
 {
     document.getElementsByTagName("body")[0].style.height = innerHeight+"px";
@@ -34,6 +36,7 @@ window.addEventListener("load",async _=>
         document.getElementById("top-section").innerHTML+=entries;
         Array.from(document.images).forEach(img=>img.addEventListener('load',_=>{counter++;if(counter==document.images.length)resolve("Loaded")}));
     });
+    document.getElementsByTagName("canvas")[0].style.display = "none";
     console.log("Top loaded");
 
     await new Promise((resolve,reject)=>
