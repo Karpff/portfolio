@@ -38,7 +38,7 @@ const data =
         }
     ],
     middle: {
-        description: "Cząsteczkowa symulacja cieczy utworzona w <i>Processing</i> - środowisku opartym na języku Java. Odwzorowuje zachowanie cieczy symulując działajace na cząsteczki czynniki takie jak grawitacja, ciśnienie i \"lepkość\". Podobnie jak większość moich prac, została ona napisana od zera, bez użycia żadnych silników fizycznych. Na ostatnim załączonym gifie widać wersję, która pozwala na popychanie cząsteczek wody przy użyciu myszki, oraz podświetla cząsteczki w zależności od tego jak szybko się poruszają.",
+        description: "Cząsteczkowa symulacja cieczy utworzona w <i>Processing</i> - środowisku opartym na języku Java. Odwzorowuje zachowanie cieczy symulując działajace na cząsteczki czynniki takie jak grawitacja, ciśnienie i \"lepkość\". Podobnie jak większość moich prac, została ona napisana od zera, bez użycia żadnych silników fizycznych. Na dwóch pierwszych gifach jasność cząsteczki jest zależna od ciśnienia, a na ostatnim od prędkości. W ostatniej wersji można również popychać cząsteczki przy użyciu myszki.",
         imgs: ["fluid2.gif","fluid3.gif","bloomwaves.gif"]
     },
     bottom: [
