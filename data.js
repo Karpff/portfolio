@@ -24,17 +24,17 @@ const data =
         {
             img: "skeleton-rush.jpg",
             link: "https://karpff.github.io/skeleton-rush/",
-            description: "Prosta gra typu tower defence, w której bronimy się przed atakiem kościejów używając naszego kursora, min oraz zapperów. Początkowo miała być to jedynie próba animacji z wyporzystaniem sprite, lecz z czasem przekształciła się ona w to czym jest dzisiaj."
+            description: "Prosta gra typu tower defence, w której bronimy się przed atakiem kościejów używając naszego kursora, min oraz zapperów. Początkowo miała być to jedynie próba animacji z wykorzystaniem sprite, lecz z czasem przekształciła się ona w to czym jest dzisiaj."
         },
         {
             img: "attractor.jpg",
             link: "https://karpff.github.io/attractor/",
-            description: "Prosta, acz zaskakująco satysfakcjonująca, interaktywna symulacja przyciągania i odpychania obiektów. Sterowanie: lewy i prawy przycisk myszy - przyciąganie i odpychanie; plus i minus - zmiana siły przyciągania/odpychania; nawiasy ( i ) - kontrola \"oporu powietrza\"."
+            description: "Prosta, acz zaskakująco satysfakcjonująca, interaktywna symulacja przyciągania i odpychania obiektów. Sterowanie: lewy i prawy przycisk myszy - przyciąganie i odpychanie; plus i minus - zmiana siły przyciągania i odpychania; nawiasy ( i ) - kontrola \"oporu powietrza\"."
         },
         {
             img: "tanks.jpg",
             link: "https://karpff.github.io/tanks/",
-            description: "Dwuosobowa gra w czołgi stworzona w 0 godzin na <a href='http://0hgame.eu'>[0h GameJam]</a> (w dzień zmiany czasu pomiędzy 2:00 a 2:00). Sterowanie: Gracz 1 - WSAD, J, L, Spacja; Gracz 2 - Strzałki, num1, num3, num0."
+            description: "Dwuosobowa gra \"Czołgi\" stworzona w 0 godzin na <a href='http://0hgame.eu'>[0h GameJam]</a> (w dzień zmiany czasu pomiędzy 2:00 a 2:00). Sterowanie: Gracz 1 - WSAD, J, L, Spacja; Gracz 2 - Strzałki, num1, num3, num0."
         }
     ],
     middle: [
@@ -43,7 +43,7 @@ const data =
             imgs: ["fluid2.gif","fluid3.gif","bloomwaves.gif"]
         },
         {
-            description: "Bot na aplikacjię czatową <i>Discord</i> napisany w Node.js. Posiada podstawową funkcjonalność taką jak zwracanie losowych wartości, pokazywanie podglądu koloru, czy postowanie awatara użytkownika; ale również zaawansowaną, do której zalicza się tworzenie głosowań/ankiet i wyświetlanie ich wyników w formie wykresu słupkowego, tworzenie memów z użyciem awatara użytkownia, a nawet granie z użytkownikiem w kółko i krzyżyk na mistrzowskim poziomie.",
+            description: "Bot na aplikacjię czatową <i>Discord</i> napisany w Node.js. Posiada podstawową funkcjonalność taką jak zwracanie losowych wartości, pokazywanie podglądu koloru, czy postowanie awatara użytkownika; ale również zaawansowaną, do której zalicza się tworzenie głosowań/ankiet i wyświetlanie ich wyników w formie wykresu słupkowego, tworzenie memów z użyciem awatara użytkownika, a nawet granie z użytkownikiem w kółko i krzyżyk na mistrzowskim poziomie.",
             imgs: ["vento3.png","vento1.png","vento2.png"]
         },
         {
