@@ -77,14 +77,14 @@ window.addEventListener("load",async _=>
     resize();
 });
 
-document.getElementsByClassName("container-md")[0].addEventListener("wheel",e=>
+document.getElementById("container").addEventListener("wheel",e=>
 {
    e.preventDefault();
 });
 
 document.getElementsByTagName("body")[0].addEventListener("wheel",e=>
 {  
-    document.getElementsByClassName("container-md")[0].scrollTo(0,document.getElementsByClassName("container-md")[0].scrollTop+e.deltaY);
+    document.getElementById("container").scrollTo(0,document.getElementById("container").scrollTop+e.deltaY);
 });
 
 const resize = _=>

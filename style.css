@@ -31,7 +31,7 @@ canvas
     transition: 100ms;
 }
 
-.container-md
+#container
 {
     color: white;
     background: linear-gradient(170deg, rgba(255,255,255,0.2), rgba(255,255,255,0) 20%);
@@ -42,7 +42,7 @@ canvas
     text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
 }
 
-.container-md::-webkit-scrollbar
+#container::-webkit-scrollbar
 {
     display: none;
 }
