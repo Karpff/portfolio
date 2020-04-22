@@ -6,6 +6,7 @@ window.addEventListener("load",async _=>
 
     var counter = 0;
 
+    setTimeout(_=>{document.getElementsByTagName("canvas")[0].style.display = "none";},10000)
     await new Promise((resolve,reject)=>
     {
         let img = document.createElement('img');
