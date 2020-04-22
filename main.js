@@ -41,14 +41,17 @@ window.addEventListener("load",async _=>
 
     await new Promise((resolve,reject)=>
     {
-        document.getElementById("middle-section").innerHTML = `<article>
-            <div class="description">${data.middle.description}</div>
-            <div class="row">
-                <div class="photo"><img src="RES/${data.middle.imgs[0]}"></div>
-                <div class="photo"><img src="RES/${data.middle.imgs[1]}"></div>
-                <div class="photo"><img src="RES/${data.middle.imgs[2]}"></div>
-            </div>
-        </article>` 
+        let entries = "";
+        data.middle.forEach(e=>
+        {
+            entries += `<article><div class="description">${e.description}</div><div class="row">`
+            e.imgs.forEach(i=>
+            {
+                entries += `<div class="photo"><img src="RES/${i}"></div>`;
+            });
+            entries += `</div></article>`
+        }); 
+        document.getElementById("middle-section").innerHTML = entries;
         Array.from(document.images).forEach(img=>img.addEventListener('load',_=>{counter++;if(counter==document.images.length)resolve("Loaded")}));
     });
     console.log("Middle loaded");

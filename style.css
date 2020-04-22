@@ -109,6 +109,12 @@ article
     order: 2;
 }
 
+#middle-section img 
+{
+    height: 300px;
+    width: 300px;
+}
+
 .frame
 {
     overflow: hidden;
