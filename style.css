@@ -5,6 +5,12 @@ html, body
     overflow: hidden;
 }
 
+hr
+{
+    background: rgba(255,255,255,0.7);
+    margin: 7px;
+}
+
 html
 {
     background: black;
